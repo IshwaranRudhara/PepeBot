@@ -212,6 +212,10 @@
     "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
   }, {
     "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+  }, { 
+    "url": "https://github.com/HasibulKabir/heroku-buildpack-rarlab"
+  }, { 
+     "url": "https://github.com/HasibulKabir/heroku-buildpack-plowshare"
   }, {
     "url": "heroku/python"
   }]
