@@ -59,7 +59,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="Karbon3 by [@PhycoNinja13b](https://github.com/Phyco-Ninja/UniNinja)",
+         caption="Karbon3",
          force_document=True,
          reply_to=e.message.reply_to_msg_id,
          )
