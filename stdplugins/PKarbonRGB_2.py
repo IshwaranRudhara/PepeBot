@@ -64,7 +64,7 @@ async def carbon_api(e):
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="RGB Karbon 2.0 by [@PhycoNinja13b](https://github.com/Phyco-Ninja/UniNinja) \n **RGBA Colour Code** = `({r}, {g}, {b}, {o})`".format(r=RED,g=GREEN,b=BLUE,o=OPC),
+         caption="RGB Karbon 2.0 \n **RGBA Colour Code** = `({r}, {g}, {b}, {o})`".format(r=RED,g=GREEN,b=BLUE,o=OPC),
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
